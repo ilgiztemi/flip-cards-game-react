@@ -1,0 +1,24 @@
+img {
+  width: 140px;
+  height: 140px;
+}
+.show {
+  display: none;
+}
+.App {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.single-card {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  background-color: grey;
+  margin: 0 2px 2px 0;
+}
